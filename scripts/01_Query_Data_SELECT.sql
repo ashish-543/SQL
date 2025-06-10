@@ -67,6 +67,11 @@ SELECT *
 FROM customers
 WHERE country = 'Germany'
 
+-- We can simply rename the columns for single instance using:
+select 
+country as nationality
+from customers
+
 -- Retrieve the name and country of customers from Germany
 SELECT
     first_name,
