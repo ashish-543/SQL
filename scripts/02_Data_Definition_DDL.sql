@@ -37,6 +37,9 @@ ADD email VARCHAR(50) NOT NULL
 ALTER TABLE persons
 DROP COLUMN phone
 
+-- To rename columns:
+EXEC sp_rename 'table_name.old_column_name', 'new_column_name', 'COLUMN'; 
+
 /* ============================================================================== 
    DROP
 =============================================================================== */
