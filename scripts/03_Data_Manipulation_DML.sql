@@ -80,6 +80,10 @@ SELECT *
 FROM customers
 WHERE score IS NULL
 
+--Delete rows with name starting from a particular alphabet
+DELETE FROM persons
+WHERE person_name LIKE 'alphabet%'
+
 /* ============================================================================== 
    DELETE
 =============================================================================== */
