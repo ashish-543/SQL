@@ -152,6 +152,9 @@ SELECT
     FORMAT(CreationTime, 'MMMM') AS MMMM
 FROM Sales.Orders;
 
+FORMAT(CreationTime, '') as with_am_pm
+/* This displays datetime in US format i.e 2/18/2025 10:45:22 AM
+
 /* TASK 10:
    Display CreationTime using a custom format:
    Example: Day Wed Jan Q1 2025 12:34:56 PM
